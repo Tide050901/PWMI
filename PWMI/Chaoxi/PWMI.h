@@ -4,4 +4,5 @@
 #include "stm32f10x.h" 
 void My_PWMI_Init(void);
 uint32_t IC_GetFreq(void);
+uint32_t IC_Get_MyCompare(void);
 #endif

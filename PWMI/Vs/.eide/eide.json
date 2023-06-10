@@ -40,6 +40,12 @@
             "path": "../Chaoxi/PWMI.h"
           },
           {
+            "path": "../Chaoxi/PWMO.c"
+          },
+          {
+            "path": "../Chaoxi/PWMO.h"
+          },
+          {
             "path": "../Chaoxi/WeiDai.h"
           }
         ],

@@ -36,3 +36,8 @@ uint32_t IC_GetFreq(void)
 {
     return 1000000/ (TIM_GetCapture1(TIM3)+1);
 }
+
+uint32_t IC_Get_MyCompare(void)
+{
+    return (TIM_GetCapture2(TIM3) + 1) * 1000 / (TIM_GetCapture1(TIM3) + 1);
+}
